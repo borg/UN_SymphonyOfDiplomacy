@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  musicalExpressions
+//
+//  Created by Grace on 11/15/14.
+//
+//
+
+#ifndef musicalExpressions_PrefixHeader_pch
+#define musicalExpressions_PrefixHeader_pch
+
+#ifdef __OBJC__
+#import <Cocoa/Cocoa.h>
+#endif
+
+#endif

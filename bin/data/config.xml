@@ -1,0 +1,42 @@
+<screenWidth>1280</screenWidth>
+<screenHeight>720</screenHeight>
+<screenLeft>100</screenLeft>
+<screenTop>100</screenTop>
+<fullscreen>0</fullscreen>
+<showMouse>1</showMouse>
+<!--content settings-->
+<drawPlot>0</drawPlot>
+<drawVideo>0</drawVideo>
+<drawFace>1</drawFace>
+<videoWidth>426</videoWidth>
+<videoHeight>240</videoHeight>
+<videosPerRow>3</videosPerRow>
+<totalBars>4</totalBars>
+<maxControls>5</maxControls>
+<globalVolume>1.0f</globalVolume>
+<!--videos-->
+<!--
+ Control values can be any of these you want to use to control one param
+ MOUTH_WIDTH,
+ MOUTH_HEIGHT,
+ LEFT_EYEBROW_HEIGHT,
+ RIGHT_EYEBROW_HEIGHT,
+ JAW_OPENNESS,
+ HEAD_TILT_Z,
+ HEAD_TILT_X
+ 
+ 
+ Min/Max refer to this control values
+ -->
+<video src="video/usa.mov" isCam="0" midiChannel="1" controlChannel="1" controlValue="0" min="1" max="3" chord="Am9" bars="1,3" />
+<video src="video/russia.mov" isCam="0" midiChannel="2" controlChannel="2" controlValue="5" min="-30" max="30" chord="Am9" bars="1,3" />
+<video src="video/china.mov" isCam="0" midiChannel="3" controlChannel="3" controlValue="6" min="7" max="13" chord="Am9" bars="1,3" />
+<video src="video/germany.mov" isCam="0" midiChannel="4" controlChannel="4" controlValue="6" min="-3" max="5" chord="Am9" bars="2" />
+<video src="video/canada.mov" isCam="0" midiChannel="5" controlChannel="5" controlValue="1" min="-4" max="10" chord="Am9" bars="4" />
+<!--video src="" isCam="1" midiChannel="3" controlChannel="5" controlValue="5" min="-30" max="30" chord="Dm" bars="2" /-->
+<video src="video/uruguay.mov" isCam="0" midiChannel="6" controlChannel="6" controlValue="6" min="-30" max="30" chord="Am9" bars="2" />
+<video src="video/ecuador.mov" isCam="0" midiChannel="7" controlChannel="7" controlValue="5" min="-15" max="20" chord="Am9" bars="4" />
+<video src="video/tibet.mov" isCam="0" midiChannel="8" controlChannel="8" controlValue="5" min="-15" max="15" chord="Am9" bars="4" />
+<video src="video/iran.mov" isCam="0" midiChannel="9" controlChannel="9" controlValue="1" min="0" max="7 " chord="Am9" bars="4" />
+<showHelp>1</showHelp>
+<muteMetro>1</muteMetro>
